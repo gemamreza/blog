@@ -1,0 +1,117 @@
+/* Navbar Section */
+
+.navbar-wrapper {
+  list-style-type: none;
+  margin: 3%;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent !important;
+}
+
+.i-navbar {
+  float: left;
+}
+
+.i-navbar {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #44ccaa;
+}
+
+.icon {
+  float: right !important;
+  color: black !important;
+  font-size: 33px;
+  transition: transform .2s;
+  cursor: pointer;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+/* HOME CSS */
+
+.title-section {
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.about {
+  padding : 20px 60px 20px 60px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.title-home {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.title-home-name {
+  text-align: center;
+  font-size: 70px;
+}
+
+.name-title {
+  color: black !important;
+  padding-right: 10% !important;
+  font-size: 25px;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif !important;
+  margin-right: 12%;
+}
+
+.techs-title {
+  text-align: center;
+  font-size: 50px;
+}
+
+/* CONTACT ME */
+
+.contact-me {
+  text-align: center;
+  font-size: 75px;
+}
+
+.contact-me-p {
+  text-align: center !important;
+  font-size: 25px;
+  font-family: 'Source Serif Pro', serif;
+}
+
+/* ABOUT */
+
+.title-about {
+  text-decoration: underline #44ccaa;
+  text-transform: uppercase !important;
+}
+
+.work-title, .job-title, .job-desc {
+  text-align: center;
+}
+
+.job-title {
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(95, 84, 84);
+}
+
+.skills-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.skills {
+  margin-top: 5px;
+}
+
