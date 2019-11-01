@@ -59,19 +59,24 @@
       "static\\11AWCBIz6fKgMzU88LVUx\\pages\\_error.js": 10,
       "static\\11AWCBIz6fKgMzU88LVUx\\pages\\about.js": 11,
       "static\\11AWCBIz6fKgMzU88LVUx\\pages\\contact.js": 12,
-      "static\\11AWCBIz6fKgMzU88LVUx\\pages\\index.js": 13
+      "static\\11AWCBIz6fKgMzU88LVUx\\pages\\index.js": 13,
+      "static\\EkGSYvXYm-kxWkYmP4zdJ\\pages\\_app.js": 3,
+      "static\\EkGSYvXYm-kxWkYmP4zdJ\\pages\\_error.js": 4,
+      "static\\EkGSYvXYm-kxWkYmP4zdJ\\pages\\about.js": 5,
+      "static\\EkGSYvXYm-kxWkYmP4zdJ\\pages\\contact.js": 6,
+      "static\\EkGSYvXYm-kxWkYmP4zdJ\\pages\\index.js": 7
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      10,
-      11,
-      12,
-      13,
       2,
-      8,
-      9
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
     ]
   }
 }
