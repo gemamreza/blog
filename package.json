@@ -4,16 +4,68 @@
   "description": "a personal blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "test": "jest",
+    "dev": "cross-env NODE_ENV=development node server.js",
+    "build": "next build ./src",
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "author": "gema m reza",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "chalk": "^2.4.2",
+    "check-prop-types": "^1.1.2",
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "jquery-react": "^1.0.0",
+    "jsdom": "^15.2.0",
+    "less": "^3.10.3",
     "next": "^9.1.1",
+    "next-compose-plugins": "^2.2.0",
+    "next-routes": "^1.4.2",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "react-multi-carousel": "^2.4.0",
+    "reactstrap": "^8.1.1",
+    "url-loader": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@types/jest": "^24.0.21",
+    "babel-jest": "^24.9.0",
+    "core-js": "^3.3.5",
+    "css-loader": "^3.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme-to-json": "^3.4.3",
+    "gh-pages": "^2.1.1",
+    "jest": "^24.9.0",
+    "less-loader": "^5.0.0",
+    "regenerator-runtime": "^0.13.3",
+    "style-loader": "^1.0.0"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/.next",
+      "<rootDir>/node_modules",
+      "<rootDir>/Tests/setup.js"
+    ],
+    "setupFiles": [
+      "<rootDir>/Tests/setup.js"
+    ],
+    "testMatch": [
+      "<rootDir>/Tests/**/*.test.js"
+    ]
   }
 }
