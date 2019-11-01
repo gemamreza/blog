@@ -10,7 +10,8 @@ module.exports = withCSS({
           limit: 100000,
           name: '[name].[ext]'
         }
-      }
+      },
+      assetPrefix: process.env.NODE_ENV === 'production' ? '/blog' : ''
     })
     return config
   }
