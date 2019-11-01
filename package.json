@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "a personal blog",
   "main": "index.js",
+  "homepage": "https://gemamreza.github.io/blog",
   "scripts": {
     "test": "jest",
     "dev": "cross-env NODE_ENV=development node server.js",
     "build": "next build ./src",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "cross-env NODE_ENV=production node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "gema m reza",
   "license": "ISC",
