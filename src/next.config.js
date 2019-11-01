@@ -11,7 +11,7 @@ module.exports = withCSS({
           name: '[name].[ext]'
         }
       },
-      assetPrefix: process.env.NODE_ENV === 'production' ? '/blog' : ''
+      assetPrefix: process.env.NODE_ENV === 'production' ? '/https://gemamreza.github.io/blog' : '/blog'
     })
     return config
   }
