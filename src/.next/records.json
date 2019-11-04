@@ -1,0 +1,52 @@
+{
+  "mini-css-extract-plugin ../node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!../node_modules/react-multi-carousel/lib/styles.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css ../node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!../node_modules/react-multi-carousel/lib/styles.css 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/runtime/main.js": 2,
+      "static\\hufdYR_K2fRgTcShEDeYI\\pages\\_app.js": 3,
+      "static\\hufdYR_K2fRgTcShEDeYI\\pages\\_error.js": 4,
+      "static\\hufdYR_K2fRgTcShEDeYI\\pages\\about.js": 5,
+      "static\\hufdYR_K2fRgTcShEDeYI\\pages\\contact.js": 6,
+      "static\\hufdYR_K2fRgTcShEDeYI\\pages\\index.js": 7,
+      "styles": 8
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}
