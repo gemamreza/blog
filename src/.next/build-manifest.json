@@ -1,36 +1,39 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_a267346dd606a6e71af2.js",
-    "static/development/dll/dll_a267346dd606a6e71af2.js.map"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.0a3dabc604798943e78b.js",
+      "static/css/styles.667dfd85.chunk.css",
+      "static/chunks/styles.623186410a77efc604b9.js",
+      "static/runtime/main-1b980e1aa6d469b78ca7.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.0a3dabc604798943e78b.js",
+      "static/runtime/main-1b980e1aa6d469b78ca7.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.0a3dabc604798943e78b.js",
+      "static/runtime/main-1b980e1aa6d469b78ca7.js"
     ],
     "/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.0a3dabc604798943e78b.js",
+      "static/runtime/main-1b980e1aa6d469b78ca7.js"
+    ],
+    "/contact": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.0a3dabc604798943e78b.js",
+      "static/runtime/main-1b980e1aa6d469b78ca7.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
-    ],
-    "/next/dist/pages/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.0a3dabc604798943e78b.js",
+      "static/css/styles.667dfd85.chunk.css",
+      "static/chunks/styles.623186410a77efc604b9.js",
+      "static/runtime/main-1b980e1aa6d469b78ca7.js"
     ]
   }
 }

@@ -1,0 +1,67 @@
+{
+  "mini-css-extract-plugin ../node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!../node_modules/react-multi-carousel/lib/styles.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css ../node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!../node_modules/react-multi-carousel/lib/styles.css 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/runtime/main.js": 2,
+      "static\\hcyJ70j4u4ScpQV0YfdaL\\pages\\_app.js": 3,
+      "static\\hcyJ70j4u4ScpQV0YfdaL\\pages\\_error.js": 4,
+      "static\\hcyJ70j4u4ScpQV0YfdaL\\pages\\about.js": 5,
+      "static\\hcyJ70j4u4ScpQV0YfdaL\\pages\\contact.js": 6,
+      "static\\hcyJ70j4u4ScpQV0YfdaL\\pages\\index.js": 7,
+      "styles": 8,
+      "static\\xxoql0CV8NKSaLpE0aI8o\\pages\\_app.js": 9,
+      "static\\xxoql0CV8NKSaLpE0aI8o\\pages\\_error.js": 10,
+      "static\\xxoql0CV8NKSaLpE0aI8o\\pages\\about.js": 11,
+      "static\\xxoql0CV8NKSaLpE0aI8o\\pages\\contact.js": 12,
+      "static\\xxoql0CV8NKSaLpE0aI8o\\pages\\index.js": 13,
+      "static\\77gZLxAEoGKRJJpDDhB6l\\pages\\_app.js": 3,
+      "static\\77gZLxAEoGKRJJpDDhB6l\\pages\\_error.js": 4,
+      "static\\77gZLxAEoGKRJJpDDhB6l\\pages\\about.js": 5,
+      "static\\77gZLxAEoGKRJJpDDhB6l\\pages\\contact.js": 6,
+      "static\\77gZLxAEoGKRJJpDDhB6l\\pages\\index.js": 7,
+      "static\\U7rxcTXXR82fwhGuNG3QM\\pages\\_app.js": 9,
+      "static\\U7rxcTXXR82fwhGuNG3QM\\pages\\_error.js": 10,
+      "static\\U7rxcTXXR82fwhGuNG3QM\\pages\\about.js": 11,
+      "static\\U7rxcTXXR82fwhGuNG3QM\\pages\\contact.js": 12,
+      "static\\U7rxcTXXR82fwhGuNG3QM\\pages\\index.js": 13
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      2,
+      8,
+      9
+    ]
+  }
+}
