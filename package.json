@@ -11,7 +11,7 @@
     "start": "cross-env NODE_ENV=production node server.js",
     "predeploy": "npm run build",
     "export": "next export",
-    "deploy": "next build ./src && next export && type nul >> ./src/out/.nojekyll && git add .src/out/ && git commit -m \"Deploy NEXT to GH Pages\" && git subtree push --prefix ./src/out origin gh-pages"
+    "deploy": "next build ./src && next export && type nul >> ./src/out/.nojekyll && git add ./src/out/ && git commit -m \"Deploy NEXT to GH Pages\" && git subtree push --prefix ./src/out origin gh-pages"
   },
   "author": "gema m reza",
   "license": "ISC",
