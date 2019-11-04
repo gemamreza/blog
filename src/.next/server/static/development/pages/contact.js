@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -4705,17 +4705,6 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "../node_modules/
 
 /***/ }),
 
-/***/ "../node_modules/react-multi-carousel/lib/styles.css":
-/*!***********************************************************!*\
-  !*** ../node_modules/react-multi-carousel/lib/styles.css ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./components/footer.js":
 /*!******************************!*\
   !*** ./components/footer.js ***!
@@ -4971,341 +4960,10 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
 
 /***/ }),
 
-/***/ "./components/quote.js":
-/*!*****************************!*\
-  !*** ./components/quote.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _reusable_quote__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reusable/quote */ "./components/reusable/quote.js");
-var _jsxFileName = "D:\\React\\personal-blog\\src\\components\\quote.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-class QuoteAu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  render() {
-    return __jsx("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 7
-      },
-      __self: this
-    }, __jsx(_reusable_quote__WEBPACK_IMPORTED_MODULE_1__["Quote"], {
-      text: "Unlike Liverpool, I always deliver. \u2615\uFE0F ",
-      author: " Yours Truly \uD83C\uDF39",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 8
-      },
-      __self: this
-    }));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (QuoteAu);
-
-/***/ }),
-
-/***/ "./components/reusable/image.js":
-/*!**************************************!*\
-  !*** ./components/reusable/image.js ***!
-  \**************************************/
-/*! exports provided: Images */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Images", function() { return Images; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "prop-types");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\React\\personal-blog\\src\\components\\reusable\\image.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const Images = props => {
-  return __jsx("div", {
-    className: "col-md-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
-  }, __jsx("div", {
-    className: "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: undefined
-  }, __jsx("img", {
-    src: props.img,
-    height: props.height,
-    width: props.width,
-    alt: "react",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: undefined
-  })));
-};
-Images.propTypes = {
-  img: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-  height: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
-  width: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
-};
-
-/***/ }),
-
-/***/ "./components/reusable/quote.js":
-/*!**************************************!*\
-  !*** ./components/reusable/quote.js ***!
-  \**************************************/
-/*! exports provided: Quote */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Quote", function() { return Quote; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "D:\\React\\personal-blog\\src\\components\\reusable\\quote.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-const Quote = props => {
-  return __jsx("div", {
-    className: "quote",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: undefined
-  }, __jsx("hr", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: undefined
-  }), __jsx("h2", {
-    className: "text-q",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: undefined
-  }, " Just like any other blog, this blog has dope quote too: "), __jsx("blockquote", {
-    className: "blockquote text-centre",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
-  }, __jsx("p", {
-    className: "mb-0",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: undefined
-  }, " ", props.text, " "), __jsx("footer", {
-    className: "blockquote-footer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: undefined
-  }, props.author)));
-};
-
-/***/ }),
-
-/***/ "./components/techs.js":
-/*!*****************************!*\
-  !*** ./components/techs.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_reusable_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/reusable/image */ "./components/reusable/image.js");
-/* harmony import */ var react_multi_carousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-multi-carousel */ "react-multi-carousel");
-/* harmony import */ var react_multi_carousel__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_multi_carousel__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_multi_carousel_lib_styles_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-multi-carousel/lib/styles.css */ "../node_modules/react-multi-carousel/lib/styles.css");
-/* harmony import */ var react_multi_carousel_lib_styles_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_multi_carousel_lib_styles_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "D:\\React\\personal-blog\\src\\components\\techs.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: {
-      max: 4000,
-      min: 3000
-    },
-    items: 5
-  },
-  desktop: {
-    breakpoint: {
-      max: 3000,
-      min: 1024
-    },
-    items: 3
-  },
-  tablet: {
-    breakpoint: {
-      max: 1024,
-      min: 464
-    },
-    items: 2
-  },
-  mobile: {
-    breakpoint: {
-      max: 464,
-      min: 0
-    },
-    items: 1
-  }
-};
-
-class Techs extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  render() {
-    return __jsx("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29
-      },
-      __self: this
-    }, __jsx(react_multi_carousel__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      responsive: responsive,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 30
-      },
-      __self: this
-    }, __jsx("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 31
-      },
-      __self: this
-    }, __jsx(_components_reusable_image__WEBPACK_IMPORTED_MODULE_1__["Images"], {
-      "data-test": "img-test",
-      img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-      height: 200,
-      width: 200,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 31
-      },
-      __self: this
-    })), __jsx("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32
-      },
-      __self: this
-    }, __jsx(_components_reusable_image__WEBPACK_IMPORTED_MODULE_1__["Images"], {
-      "data-test": "img-test",
-      img: "https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png",
-      height: 200,
-      width: 200,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32
-      },
-      __self: this
-    })), __jsx("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33
-      },
-      __self: this
-    }, __jsx(_components_reusable_image__WEBPACK_IMPORTED_MODULE_1__["Images"], {
-      "data-test": "img-test",
-      img: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
-      height: 200,
-      width: 200,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33
-      },
-      __self: this
-    })), __jsx("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34
-      },
-      __self: this
-    }, __jsx(_components_reusable_image__WEBPACK_IMPORTED_MODULE_1__["Images"], {
-      "data-test": "img-test",
-      img: "https://miro.medium.com/max/1200/1*Ahl24GrglQHwFcp5-_B36Q.png",
-      height: 200,
-      width: 200,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34
-      },
-      __self: this
-    })), __jsx("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35
-      },
-      __self: this
-    }, __jsx(_components_reusable_image__WEBPACK_IMPORTED_MODULE_1__["Images"], {
-      "data-test": "img-test",
-      img: "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png",
-      height: 200,
-      width: 200,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35
-      },
-      __self: this
-    })), __jsx("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 36
-      },
-      __self: this
-    }, __jsx(_components_reusable_image__WEBPACK_IMPORTED_MODULE_1__["Images"], {
-      "data-test": "img-test",
-      img: "https://upload.wikimedia.org/wikipedia/id/a/a9/MySQL.png",
-      height: 200,
-      width: 200,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 36
-      },
-      __self: this
-    }))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Techs);
-
-/***/ }),
-
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/contact.js":
+/*!**************************!*\
+  !*** ./pages/contact.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5314,128 +4972,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/navbar */ "./components/navbar.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_techs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/techs */ "./components/techs.js");
-/* harmony import */ var _components_quote__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/quote */ "./components/quote.js");
-/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
-var _jsxFileName = "D:\\React\\personal-blog\\src\\pages\\index.js";
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
+var _jsxFileName = "D:\\React\\personal-blog\\src\\pages\\contact.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
-
-
-
-class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+class Contact extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    return __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
-      },
-      __self: this
-    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14
-      },
-      __self: this
-    }, __jsx("title", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 15
-      },
-      __self: this
-    }, "Gema Muhammad Reza"), __jsx("link", {
-      rel: "shorcut icon",
-      type: "image/x-icon",
-      href: "https://i.pinimg.com/originals/fe/e1/84/fee18481df61ce4220956dc8f44d09e8.jpg",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16
-      },
-      __self: this
-    })), __jsx("div", {
-      className: "index",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 8
       },
       __self: this
     }, __jsx("div", {
+      className: "contact",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 9
       },
       __self: this
     }, __jsx(_components_navbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 10
       },
       __self: this
-    })), __jsx("div", {
-      className: "title-section",
-      "data-test": "title-test",
+    }), __jsx("h1", {
+      className: "contact-me",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 11
       },
       __self: this
-    }, __jsx("h1", {
-      className: "title-home-name",
+    }, " Get In Touch "), __jsx("p", {
+      className: "contact-me-p",
+      "data-test": "contact-me",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 12
       },
       __self: this
-    }, "I am Gema Muhammad Reza"), __jsx("h2", {
-      className: "title-home",
+    }, "If you interested to work with me or have any kind of job opportunity ", __jsx("br", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 13
       },
       __self: this
-    }, "A Newbie Web Developer \uD83D\uDE80")), __jsx(_components_quote__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    }), "Please email me at gemamreza@gmail.com.")), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
-      },
-      __self: this
-    }), __jsx("div", {
-      className: "content",
-      "data-test": "tech-test",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27
-      },
-      __self: this
-    }, __jsx("hr", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28
-      },
-      __self: this
-    }), __jsx("h2", {
-      className: "techs-title",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29
-      },
-      __self: this
-    }, " Techs I Use : "), __jsx(_components_techs__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      className: "techs-section",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 30
-      },
-      __self: this
-    }))), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33
+        lineNumber: 17
       },
       __self: this
     }));
@@ -5443,30 +5032,19 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Home);
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
 
-/***/ 5:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 6:
+/*!********************************!*\
+  !*** multi ./pages/contact.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\React\personal-blog\src\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! D:\React\personal-blog\src\pages\contact.js */"./pages/contact.js");
 
-
-/***/ }),
-
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/head");
 
 /***/ }),
 
@@ -5514,17 +5092,6 @@ module.exports = require("react-is");
 
 /***/ }),
 
-/***/ "react-multi-carousel":
-/*!***************************************!*\
-  !*** external "react-multi-carousel" ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-multi-carousel");
-
-/***/ }),
-
 /***/ "url":
 /*!**********************!*\
   !*** external "url" ***!
@@ -5537,4 +5104,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=contact.js.map
