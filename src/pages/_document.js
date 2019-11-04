@@ -10,7 +10,7 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/static/style.css" />
           <link href="https://fonts.googleapis.com/css?family=Oswald:400,500|Source+Serif+Pro|ZCOOL+XiaoWei&display=swap" rel="stylesheet"></link>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-          <link rel="stylesheet" href={`${this.props.__NEXT_DATA__.assetPrefix}/_next/static/css/style.css`} />
+          <link rel="stylesheet" href={`${this.props.__NEXT_DATA__.assetPrefix}/static/style.css`} />
         </Head>
         <body>
           <div className="container">
