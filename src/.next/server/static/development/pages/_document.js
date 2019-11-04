@@ -4179,9 +4179,9 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 8
       },
       __self: this
-    }, process.env.BACKEND && __jsx("link", {
+    }, !process.env.BACKEND && __jsx("link", {
       rel: "stylesheet",
-      href: `${process.env.BACKEND}/static/style.css`,
+      href: `${this.props.__NEXT_DATA__.assetPrefix}/static/style.css`,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 10
