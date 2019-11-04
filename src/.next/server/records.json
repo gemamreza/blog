@@ -30,16 +30,34 @@
       "static\\W0OfBzSNwwCIURn_kvTtW\\pages\\_error.js": 8,
       "static\\W0OfBzSNwwCIURn_kvTtW\\pages\\about.js": 9,
       "static\\W0OfBzSNwwCIURn_kvTtW\\pages\\contact.js": 10,
-      "static\\W0OfBzSNwwCIURn_kvTtW\\pages\\index.js": 11
+      "static\\W0OfBzSNwwCIURn_kvTtW\\pages\\index.js": 11,
+      "static\\KM8BAMUjUIzxdyOwcx8CG\\pages\\_app.js": 0,
+      "static\\KM8BAMUjUIzxdyOwcx8CG\\pages\\_document.js": 1,
+      "static\\KM8BAMUjUIzxdyOwcx8CG\\pages\\_error.js": 2,
+      "static\\KM8BAMUjUIzxdyOwcx8CG\\pages\\about.js": 3,
+      "static\\KM8BAMUjUIzxdyOwcx8CG\\pages\\contact.js": 4,
+      "static\\KM8BAMUjUIzxdyOwcx8CG\\pages\\index.js": 5,
+      "static\\buAuysrICOhMGjW9wT0RV\\pages\\_app.js": 6,
+      "static\\buAuysrICOhMGjW9wT0RV\\pages\\_document.js": 7,
+      "static\\buAuysrICOhMGjW9wT0RV\\pages\\_error.js": 8,
+      "static\\buAuysrICOhMGjW9wT0RV\\pages\\about.js": 9,
+      "static\\buAuysrICOhMGjW9wT0RV\\pages\\contact.js": 10,
+      "static\\buAuysrICOhMGjW9wT0RV\\pages\\index.js": 11,
+      "static\\BkYbl0-7TdwqrHlPYmxnX\\pages\\_app.js": 0,
+      "static\\BkYbl0-7TdwqrHlPYmxnX\\pages\\_document.js": 1,
+      "static\\BkYbl0-7TdwqrHlPYmxnX\\pages\\_error.js": 2,
+      "static\\BkYbl0-7TdwqrHlPYmxnX\\pages\\about.js": 3,
+      "static\\BkYbl0-7TdwqrHlPYmxnX\\pages\\contact.js": 4,
+      "static\\BkYbl0-7TdwqrHlPYmxnX\\pages\\index.js": 5
     },
     "bySource": {},
     "usedIds": [
-      10,
-      11,
-      6,
-      7,
-      8,
-      9
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
     ]
   }
 }
