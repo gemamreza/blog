@@ -4815,6 +4815,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/",
+      as: process.env.BACKEND = '/',
       __source: {
         fileName: _jsxFileName,
         lineNumber: 23
@@ -4835,6 +4836,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       __self: this
     }, "Hello There"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/",
+      as: process.env.BACKEND = '/',
       __source: {
         fileName: _jsxFileName,
         lineNumber: 24
@@ -4855,6 +4857,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       __self: this
     }, "Home"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/about",
+      as: process.env.BACKEND = '/about',
       __source: {
         fileName: _jsxFileName,
         lineNumber: 25
@@ -4875,6 +4878,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       __self: this
     }, "About"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/contact",
+      as: process.env.BACKEND = '/contact',
       __source: {
         fileName: _jsxFileName,
         lineNumber: 26

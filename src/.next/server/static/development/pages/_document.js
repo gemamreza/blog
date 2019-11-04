@@ -4179,14 +4179,22 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 8
       },
       __self: this
-    }, __jsx("link", {
+    }, process.env.BACKEND && __jsx("link", {
+      rel: "stylesheet",
+      href: `${process.env.BACKEND}/static/style.css`,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }), __jsx("link", {
       rel: "stylesheet",
       href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
       integrity: "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm",
       crossOrigin: "anonymous",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9
+        lineNumber: 12
       },
       __self: this
     }), __jsx("link", {
@@ -4194,7 +4202,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "/static/style.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10
+        lineNumber: 13
       },
       __self: this
     }), __jsx("link", {
@@ -4202,7 +4210,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       rel: "stylesheet",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 14
       },
       __self: this
     }), __jsx("link", {
@@ -4210,15 +4218,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
-      },
-      __self: this
-    }), !this.props.dev && __jsx("link", {
-      rel: "stylesheet",
-      href: `${this.props.__NEXT_DATA__.assetPrefix}/static/style.css`,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 15
       },
       __self: this
     })), __jsx("body", {

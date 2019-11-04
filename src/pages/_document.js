@@ -6,7 +6,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="stylesheet" href={`${this.props.__NEXT_DATA__.assetPrefix}/_next/static/css/style.css`} />
+          {
+            process.env.BACKEND && ( <link rel="stylesheet" href={`${ process.env.BACKEND }/static/style.css`} />)
+          }
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" />
           <link rel="stylesheet" href="/static/style.css" />
           <link href="https://fonts.googleapis.com/css?family=Oswald:400,500|Source+Serif+Pro|ZCOOL+XiaoWei&display=swap" rel="stylesheet"></link>
