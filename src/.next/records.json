@@ -1,0 +1,57 @@
+{
+  "mini-css-extract-plugin ../node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!../node_modules/react-multi-carousel/lib/styles.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css ../node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!../node_modules/react-multi-carousel/lib/styles.css 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/runtime/main.js": 2,
+      "static\\nusvnuZKAaSUc7Cx_Tnm8\\pages\\_app.js": 3,
+      "static\\nusvnuZKAaSUc7Cx_Tnm8\\pages\\_error.js": 4,
+      "static\\nusvnuZKAaSUc7Cx_Tnm8\\pages\\about.js": 5,
+      "static\\nusvnuZKAaSUc7Cx_Tnm8\\pages\\contact.js": 6,
+      "static\\nusvnuZKAaSUc7Cx_Tnm8\\pages\\index.js": 7,
+      "styles": 8,
+      "static\\vevFjXya-kiY0QB1qZbst\\pages\\_app.js": 9,
+      "static\\vevFjXya-kiY0QB1qZbst\\pages\\_error.js": 10,
+      "static\\vevFjXya-kiY0QB1qZbst\\pages\\about.js": 11,
+      "static\\vevFjXya-kiY0QB1qZbst\\pages\\contact.js": 12,
+      "static\\vevFjXya-kiY0QB1qZbst\\pages\\index.js": 13
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      2,
+      8,
+      9
+    ]
+  }
+}
