@@ -7,7 +7,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {
-            !this.props.dev && (<link rel="stylesheet" href={`${this.props.__NEXT_DATA__.assetPrefix}/static/style.css`} />)
+            !this.props.dev && (<link rel="stylesheet" href={`${this.props.__NEXT_DATA__.assetPrefix}/_next/static/css/style.css`} />)
           }
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" />
           <link rel="stylesheet" href="/static/style.css" />
