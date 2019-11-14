@@ -21,7 +21,7 @@ class Home extends Component {
         </div>
         <div className='title-section' data-test='title-test'>
           <h1 className='title-home-name'>I am Gema Muhammad Reza</h1>
-          <h2 className='title-home'>A Newbie Web Developer 🚀</h2>
+          <h2 className='title-home'>A Newbie Web Developer 🤖</h2>
         </div>
         <Quote />
         <div className='content' data-test='tech-test'>

@@ -4179,12 +4179,20 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 8
       },
       __self: this
-    }, !process.env.BACKEND && __jsx("link", {
+    }, process.env.BACKEND && __jsx("link", {
       rel: "stylesheet",
-      href: `${this.props.__NEXT_DATA__.assetPrefix}/_next/static/style.css`,
+      href: `${process.env.BACKEND}/static/css/style.css`,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 10
+      },
+      __self: this
+    }) && __jsx("link", {
+      rel: "stylesheet",
+      href: "/static/style.css",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
       },
       __self: this
     }), __jsx("link", {
@@ -4192,14 +4200,6 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
       integrity: "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm",
       crossOrigin: "anonymous",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12
-      },
-      __self: this
-    }), __jsx("link", {
-      rel: "stylesheet",
-      href: "/static/style.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 13
@@ -4210,7 +4210,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       rel: "stylesheet",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 15
       },
       __self: this
     }), __jsx("link", {
@@ -4218,32 +4218,32 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 16
       },
       __self: this
     })), __jsx("body", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 18
       },
       __self: this
     }, __jsx("div", {
       className: "container",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 19
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 20
       },
       __self: this
     })), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 22
       },
       __self: this
     })));

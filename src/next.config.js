@@ -1,6 +1,6 @@
-const withCSS = require('@zeit/next-css')
+const withCSS = require('@zeit/next-css');
 // const doteEnv = require('dotenv').config()
-const debug = process.env.NODE_ENV !== 'production'
+const debug = process.env.NODE_ENV !== 'production';
 
 module.exports = withCSS({
   exportPathMap: function () {
