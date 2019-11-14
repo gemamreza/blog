@@ -4179,23 +4179,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 8
       },
       __self: this
-    }, process.env.BACKEND && __jsx("link", {
-      rel: "stylesheet",
-      href: `${process.env.BACKEND}/static/css/style.css`,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 10
-      },
-      __self: this
-    }) && __jsx("link", {
-      rel: "stylesheet",
-      href: "/static/style.css",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 11
-      },
-      __self: this
-    }), __jsx("link", {
+    }, __jsx("link", {
       rel: "stylesheet",
       href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
       integrity: "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm",
@@ -4210,12 +4194,20 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       rel: "stylesheet",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 14
       },
       __self: this
     }), __jsx("link", {
       rel: "stylesheet",
       href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "https://codepen.io/gemamreza/pen/Exxdveq.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 16

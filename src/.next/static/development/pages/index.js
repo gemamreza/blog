@@ -11466,7 +11466,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/",
-        as: process.env.BACKEND = '/',
+        as: process.env.PROD = '/',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 23
@@ -11487,7 +11487,7 @@ function (_Component) {
         __self: this
       }, "Hello There"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/",
-        as: process.env.BACKEND = '/',
+        as: process.env.PROD = '/',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
@@ -11508,7 +11508,7 @@ function (_Component) {
         __self: this
       }, "Home"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/about",
-        as: process.env.BACKEND = '/about',
+        as: process.env.PROD = '/about',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
@@ -11529,7 +11529,7 @@ function (_Component) {
         __self: this
       }, "About"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/contact",
-        as: process.env.BACKEND = '/contact',
+        as: process.env.PROD = '/contact',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
