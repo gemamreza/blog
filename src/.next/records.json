@@ -1,0 +1,62 @@
+{
+  "mini-css-extract-plugin ../node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!../node_modules/react-multi-carousel/lib/styles.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css ../node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!../node_modules/react-multi-carousel/lib/styles.css 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/runtime/main.js": 2,
+      "static\\U1tE3uSpobpqhHdp2Fg_U\\pages\\_app.js": 3,
+      "static\\U1tE3uSpobpqhHdp2Fg_U\\pages\\_error.js": 4,
+      "static\\U1tE3uSpobpqhHdp2Fg_U\\pages\\about.js": 5,
+      "static\\U1tE3uSpobpqhHdp2Fg_U\\pages\\contact.js": 6,
+      "static\\U1tE3uSpobpqhHdp2Fg_U\\pages\\index.js": 7,
+      "styles": 8,
+      "static\\73VdBhzQy7f6i0Im4qYE6\\pages\\_app.js": 9,
+      "static\\73VdBhzQy7f6i0Im4qYE6\\pages\\_error.js": 10,
+      "static\\73VdBhzQy7f6i0Im4qYE6\\pages\\about.js": 11,
+      "static\\73VdBhzQy7f6i0Im4qYE6\\pages\\contact.js": 12,
+      "static\\73VdBhzQy7f6i0Im4qYE6\\pages\\index.js": 13,
+      "static\\La9Tz0gxnA4T_8AU8_GFb\\pages\\_app.js": 3,
+      "static\\La9Tz0gxnA4T_8AU8_GFb\\pages\\_error.js": 4,
+      "static\\La9Tz0gxnA4T_8AU8_GFb\\pages\\about.js": 5,
+      "static\\La9Tz0gxnA4T_8AU8_GFb\\pages\\contact.js": 6,
+      "static\\La9Tz0gxnA4T_8AU8_GFb\\pages\\index.js": 7
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}
